@@ -1,5 +1,6 @@
 # MessageMedia Lookups Python SDK
 [![Build Status](https://travis-ci.org/messagemedia/lookups-python-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/lookups-python-sdk)
+[![PyPI](https://img.shields.io/pypi/v/messagemedia-messages-sdk.svg)](https://pypi.python.org/pypi/messagemedia-lookups-sdk)
 
 The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.
 
