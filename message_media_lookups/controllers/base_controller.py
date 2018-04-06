@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    message_media_lookupscontrollers.base_controller
-
-    This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
+    message_media_lookupscontrollers.base_controller.
 """
 
 from ..api_helper import APIHelper

@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    tests.controllers.controller_test_base
-
-    This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
+    tests.controllers.controller_test_base.
 """
 
 import unittest

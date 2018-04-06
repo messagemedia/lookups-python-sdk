@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    message_media_lookups.models.lookup_a_phone_number_response
-
-    This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
+    message_media_lookups.models.lookup_a_phone_number_response.
 """
 
 
@@ -71,5 +69,3 @@ class LookupAPhoneNumberResponse(object):
                    phone_number,
                    mtype,
                    carrier)
-
-

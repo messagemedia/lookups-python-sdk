@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    message_media_lookups.http.http_request
-
-    This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
+    message_media_lookups.http.http_request.
 """
 from ..api_helper import APIHelper
 

@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    message_media_lookups.controllers.lookups_controller
-
-    This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
+    message_media_lookups.controllers.lookups_controller.
 """
 
 import logging
@@ -66,9 +64,9 @@ class LookupsController(BaseController):
         Args:
             phone_number (string): The phone number to be looked up
             options (string, optional): TODO: type description here. Example:
-                
+
         Returns:
-            LookupAPhoneNumberResponse: Response from the API. 
+            LookupAPhoneNumberResponse: Response from the API.
 
         Raises:
             APIException: When an error occurs while fetching the data from
@@ -79,12 +77,12 @@ class LookupsController(BaseController):
         """
         try:
             self.logger.info('get_lookup_a_phone_number called.')
-    
+
             # Prepare query URL
             self.logger.info('Preparing query URL for get_lookup_a_phone_number.')
             _query_builder = Configuration.base_uri
             _query_builder += '/v1/lookups/phone/{phone_number}'
-            _query_builder = APIHelper.append_url_with_template_parameters(_query_builder, { 
+            _query_builder = APIHelper.append_url_with_template_parameters(_query_builder, {
                 'phone_number': phone_number
             })
             _query_parameters = {
@@ -93,13 +91,13 @@ class LookupsController(BaseController):
             _query_builder = APIHelper.append_url_with_query_parameters(_query_builder,
                 _query_parameters, Configuration.array_serialization)
             _query_url = APIHelper.clean_url(_query_builder)
-    
+
             # Prepare headers
             self.logger.info('Preparing headers for get_lookup_a_phone_number.')
             _headers = {
                 'accept': 'application/json'
             }
-    
+
             # Prepare and execute request
             self.logger.info('Preparing and executing request for get_lookup_a_phone_number.')
             _request = self.http_client.get(_query_url, headers=_headers)
@@ -111,7 +109,7 @@ class LookupsController(BaseController):
             if _context.response.status_code == 404:
                 raise APIException('Number was invalid', _context)
             self.validate_response(_context)
-    
+
             # Return appropriate type
             return APIHelper.json_deserialize(_context.response.raw_body, LookupAPhoneNumberResponse.from_dictionary)
 

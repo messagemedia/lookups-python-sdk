@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-   message_media_lookups.exceptions.api_exception
-
-   This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
+   message_media_lookups.exceptions.api_exception.
 """
 
 class APIException(Exception):
@@ -23,7 +21,7 @@ class APIException(Exception):
 
         Args:
             reason (string): The reason (or error message) for the Exception
-                to be raised.            
+                to be raised.
             context (HttpContext): The HttpContext of the API call.
 
         """

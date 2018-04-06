@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-   message_media_lookups.configuration
-
-   This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
+   message_media_lookups.configuration.
 """
 import sys
 import logging
@@ -35,4 +33,3 @@ class Configuration(object):
     # The password to use with basic authentication
     # TODO: Set an appropriate value
     basic_auth_password = "TODO: Replace"
-

@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    tests.controllers.test_lookups_controller
-
-    This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
+    tests.controllers.test_lookups_controller.
 """
 
 import jsonpickle
@@ -63,9 +61,7 @@ class LookupsControllerTests(ControllerTestBase):
 
         self.assertTrue(TestHelper.match_headers(expected_headers, self.response_catcher.response.headers))
 
-        
+
         # Test whether the captured response is as we expected
         self.assertIsNotNone(result)
         self.assertEqual('{"countryCode":"AU","phoneNumber":"+61491570156","type":"MOBILE","carrier":{"name":"AU Landline Carrier"}}', self.response_catcher.response.raw_body)
-
-
