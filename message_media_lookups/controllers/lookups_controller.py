@@ -95,7 +95,8 @@ class LookupsController(BaseController):
             # Prepare headers
             self.logger.info('Preparing headers for get_lookup_a_phone_number.')
             _headers = {
-                'accept': 'application/json'
+                'accept': 'application/json',
+                'user-agent': 'messagemedia-lookups-python-sdk-1.0.0'
             }
 
             # Prepare and execute request
